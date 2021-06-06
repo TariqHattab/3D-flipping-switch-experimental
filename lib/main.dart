@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.cyan,
+        primarySwatch: Colors.amber,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
           child: FlippingSwitch(
-        color: Colors.cyan,
+        color: Colors.amber,
         background: Colors.black,
         leftLabel: 'Free',
         rightLabel: 'Premuim',
